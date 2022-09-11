@@ -1,2 +1,5 @@
-# react-study
-This is garbage for study use
+# React Study
+This is garbage for study React use 
+
+## Apps
+- memo-app
