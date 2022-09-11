@@ -5,7 +5,7 @@ import { useMemoList } from '../hooks/useMemoList'
 // import './App.css';
 
 export const App: FC = () => {
-  //
+  // custom hook
   const { memos, addTodo, deleteTodo } = useMemoList()
 
   // state for text box
