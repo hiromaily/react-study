@@ -19,6 +19,7 @@ export const useFetchUsers = () => {
     setIsError(false)
 
     // APIの実行
+    // TODO: cache
     axios
       .get('http://127.0.0.1:8887/userList.json')
       .then((result: FetchUsersResponse) => {
