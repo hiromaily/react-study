@@ -1,4 +1,3 @@
-import React from 'react'
 import { ListItemContainer } from '../components/userlist/ListItemContainer'
 
 const Page2 = () => {
