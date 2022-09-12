@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { useForm } from 'react-hook-form'
-import { Button, TextField } from '@mui/material'
+import { Box, Button, TextField } from '@mui/material'
 
 export const LoginForm: FC = () => {
   const {
@@ -14,7 +14,7 @@ export const LoginForm: FC = () => {
   }
 
   return (
-    <>
+    <Box>
       {/* フォームサブミット前に、handleSubmit が input
       コントロールの検証を行います。 */}
       <form
@@ -54,6 +54,6 @@ export const LoginForm: FC = () => {
           Submit
         </Button>
       </form>
-    </>
+    </Box>
   )
 }
