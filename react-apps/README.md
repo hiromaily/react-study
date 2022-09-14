@@ -4,8 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project is created by
 ```
-npx create-react-app login-form --template typescript
+npx create-react-app react-apps --template typescript
 ```
+
+
+- user-list
 
 ## References
 - [React MUI: TextField と react-form-hook による入力検証](https://watermargin.net/programming/react/react-mui-textfield-react-form-hook-validation/)
@@ -18,6 +21,7 @@ npm install react-hook-form
 - [MaterialUI]
 ```
 npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
 ```
 
 ## Available Scripts

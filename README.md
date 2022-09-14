@@ -2,9 +2,15 @@
 This is garbage for study React use 
 
 ## Apps
-- memo-app
-- user-list
+- react-apps
+```
+npx create-react-app react-apps --template typescript
+```
 
+- react-vite-apps
+```
+npm init vite@latest react-vite-apps -- --template react-ts
+```
 
 ## For development
 - See [ESLint + Prettier + Typescript and React in 2022])(https://blog.devgenius.io/eslint-prettier-typescript-and-react-in-2022-e5021ebca2b1)

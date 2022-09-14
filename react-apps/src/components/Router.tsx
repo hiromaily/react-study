@@ -16,6 +16,7 @@ import Top from '../pages/Top'
 import Page1 from '../pages/Page1'
 import Page2 from '../pages/Page2'
 import Page3 from '../pages/Page3'
+import Page4 from '../pages/Page4'
 
 const drawerWidth = 240
 
@@ -61,6 +62,9 @@ export const Router: FC = () => {
             <ListItem button key='page3' component={Link} to={'/page3'}>
               <ListItemText primary='Page3: MemoList' />
             </ListItem>
+            <ListItem button key='page4' component={Link} to={'/page4'}>
+              <ListItemText primary='Page4: Checkout' />
+            </ListItem>
           </List>
         </Drawer>
         <Box component='main' sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}>
@@ -72,6 +76,7 @@ export const Router: FC = () => {
               <Route path='page1' element={<Page1 />} />
               <Route path='page2' element={<Page2 />} />
               <Route path='page3' element={<Page3 />} />
+              <Route path='page4' element={<Page4 />} />
             </Routes>
           </>
         </Box>
