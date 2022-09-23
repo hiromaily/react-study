@@ -50,8 +50,11 @@ const getBlogs = (): BlogData[] => {
       slug: slug,
     }
   })
+  const sorted = blogs.sort((a, b) => {
+    return b.frontmatter.id - a.frontmatter.id
+  })
 
-  return blogs
+  return sorted
 }
 
 const getBlogSlugs = (): string[] => {

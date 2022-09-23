@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
+import Image from 'next/image'
 import { getBlogs } from '../libs/blog'
 import type { BlogData } from '../libs/blog'
 import Style from '../styles/blog.module.css'
@@ -22,6 +23,7 @@ const Blog: NextPage<BlogProps> = (props) => {
           <Link href={`/blog/${blog.slug}`}>
             <a>Read More</a>
           </Link>
+          <Image src={blog.frontmatter.image} alt="card-image" height={300} width={1000} ></Image>
         </div>
       ))}
     </div>
