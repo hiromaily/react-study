@@ -31,6 +31,7 @@ export type BlogData = {
 }
 
 const getBlogs = (): BlogData[] => {
+  //const getBlogs = async (): Promise<BlogData[]> => {
   const context: Context = {}
   //const ctx = require.context('../../data', true, /\.md$/);
   const ctx = require.context('../../data', true, /^(?!data).*$/)
